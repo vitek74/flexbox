@@ -1,0 +1,17 @@
+* {box-sizing: border-box; }
+#flex-container {background: #98FB98;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     }
+
+#flex-container > div {
+    display: block;
+    overflow: scroll;
+    background:  #F5FFFA;
+     border: 1px solid; 
+     width: 42%;
+     margin: 5px;
+     padding: 5px;
+     
+     }
